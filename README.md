@@ -187,7 +187,7 @@ The following questions were designed to demonstrate the use of the dashboard's 
 **Answer:**
 The top three selling Laptops in Makati are the Lenovo IdeaPad Slim 3, the ASUS TUF Gaming A15, and the ASUS Vivobook 15.
 
-**Screenshot:** `screenshots/q1_city_category.png`
+![Question 1](screenshots/q1_city_category.png)
 
 ---
 
