@@ -1,6 +1,6 @@
 # Sales Performance Analysis Dashboard
 
-### TESDA Data Analytics Final Hands-On Assessment | Power BI
+### TESDA Data Analytics Level III Final Hands-On Assessment | Power BI
 
 ![Sales Dashboard](screenshots/dashboard_overview.png)
 
@@ -35,7 +35,7 @@ These filters can be combined to perform more specific analysis rather than rely
 
 ---
 
-## 🗂️ Dataset
+## Dataset
 
 The assessment dataset consists of three related tables.
 
@@ -68,7 +68,7 @@ The assessment dataset consists of three related tables.
 
 ---
 
-## 🔗 Data Model
+## Data Model
 
 The three tables were related using their corresponding identifier fields.
 
@@ -88,7 +88,7 @@ This structure allows customer and product information to be analyzed together w
 
 ---
 
-## 🧹 Data Preparation
+## Data Preparation
 
 Before creating the dashboard, the datasets were reviewed and prepared for analysis.
 
@@ -110,7 +110,7 @@ The expanded data is synthetic and does not represent actual customer or busines
 
 ---
 
-## 📐 Key Measures
+## Key Measures
 
 The following measures were created in Power BI:
 
@@ -124,7 +124,7 @@ These measures provide the key performance indicators used throughout the dashbo
 
 ---
 
-## 📈 Dashboard Components
+## Dashboard Components
 
 The dashboard contains the following visualizations.
 
@@ -173,34 +173,32 @@ Rather than only identifying the overall best-performing product, category, or c
 
 The following questions were designed to demonstrate the use of the dashboard's interactive filtering capabilities.
 
-> **Note:** The answers below are intentionally left for manual completion based on the results obtained from the dashboard.
-
 ---
 
 ### Question 1 — Product Performance Within a Category
 
-**What are the top three products by total sales in `[CITY]` within the `[CATEGORY]` category?**
+**What are the top three products by total sales in Makati within the Laptops category?**
 
 **Filters to apply:**
 
-* City → `[CITY]`
-* Category → `[CATEGORY]`
+* City → Makati
+* Category → Laptops
 
 **Answer:**
-`[Enter your finding here.]`
+The top three selling Laptops in Makati are the Lenovo IdeaPad Slim 3, the ASUS TUF Gaming A15, and the ASUS Vivobook 15.
 
-📸 **Screenshot:** `screenshots/q1_city_category.png`
+**Screenshot:** `screenshots/q1_city_category.png`
 
 ---
 
 ### Question 2 — Category Performance Within a City and Period
 
-**Which category generated the highest total sales in `[CITY]` during `[DATE/PERIOD]`?**
+**Which category generated the highest total sales in Caloocan during January 2025 to June 2025?**
 
 **Filters to apply:**
 
-* City → `[CITY]`
-* Date → `[DATE/PERIOD]`
+* City → Caloocan
+* Date → 1/1/2025 to 6/30/2025
 
 **Answer:**
 `[Enter your finding here.]`
@@ -211,13 +209,13 @@ The following questions were designed to demonstrate the use of the dashboard's 
 
 ### Question 3 — Product Performance Within a City, Category, and Period
 
-**Which product generated the highest total sales in `[CITY]` within the `[CATEGORY]` category during `[DATE/PERIOD]`?**
+**Which product generated the highest total sales in Malabon within the Desktops category during July 2025 to December 2025?**
 
 **Filters to apply:**
 
-* City → `[CITY]`
-* Category → `[CATEGORY]`
-* Date → `[DATE/PERIOD]`
+* City → Malabon
+* Category → Desktops
+* Date → 7/1/2025 to 12/31/2025
 
 **Answer:**
 `[Enter your finding here.]`
@@ -228,12 +226,12 @@ The following questions were designed to demonstrate the use of the dashboard's 
 
 ### Question 4 — Quantity vs. Sales
 
-**Within `[CITY]` and the `[CATEGORY]` category, which product had the highest quantity sold, and did it also generate the highest total sales?**
+**Within Manila and the Accessories category, which product had the highest quantity sold, and did it also generate the highest total sales?**
 
 **Filters to apply:**
 
-* City → `[CITY]`
-* Category → `[CATEGORY]`
+* City → Manila
+* Category → Accessories
 
 **Answer:**
 `[Enter your finding here.]`
@@ -246,12 +244,12 @@ This question is useful because the product with the highest **quantity sold** d
 
 ### Question 5 — Monthly Performance Within a Specific Market
 
-**During which month did `[CATEGORY]` generate its highest total sales in `[CITY]`?**
+**During which month did Desktops generate its highest total sales in Muntinlupa?**
 
 **Filters to apply:**
 
-* City → `[CITY]`
-* Category → `[CATEGORY]`
+* City → Muntinlupa
+* Category → Desktops
 
 **Answer:**
 `[Enter your finding here.]`
