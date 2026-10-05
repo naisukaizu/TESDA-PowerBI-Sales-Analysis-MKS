@@ -2,7 +2,7 @@
 
 ### TESDA Data Analytics Final Hands-On Assessment | Power BI
 
-![Sales Dashboard](screenshots/dashboard.png)
+![Sales Dashboard](screenshots/dashboard_overview.png)
 
 ## Project Overview
 
