@@ -1,0 +1,26 @@
+﻿ID,Product,Category,Price
+P001,Acer Aspire 5,Laptops,38995
+P002,Lenovo IdeaPad Slim 3,Laptops,32995
+P003,ASUS Vivobook 15,Laptops,42995
+P004,HP Pavilion 14,Laptops,48995
+P005,ASUS TUF Gaming A15,Laptops,64995
+P006,Dell Inspiron 24,Desktops,45995
+P007,Lenovo ThinkCentre M70s,Desktops,52995
+P008,Custom Gaming PC Ryzen 5,Desktops,69995
+P009,AOC 24G2 24-inch Monitor,Monitors,10995
+P010,LG 27MP400 27-inch Monitor,Monitors,12995
+P011,Samsung 32-inch Monitor,Monitors,16995
+P012,Logitech K380 Keyboard,Accessories,1995
+P013,Logitech G304 Mouse,Accessories,2295
+P014,Razer BlackShark V2 X,Accessories,2995
+P015,Logitech C920 Webcam,Accessories,4995
+P016,Kingston 16GB DDR4 RAM,Components,2895
+P017,Samsung 1TB NVMe SSD,Components,4995
+P018,WD Blue 2TB HDD,Components,3795
+P019,Gigabyte RTX 4060 8GB,Components,21995
+P020,TP-Link Archer AX23 Router,Networking,3295
+P021,TP-Link 8-Port Gigabit Switch,Networking,1895
+P022,Epson EcoTank L3250,Printers,10995
+P023,HP LaserJet M111w,Printers,7995
+P024,Canon PIXMA G4770,Printers,13995
+P025,APC 650VA UPS,Power & Protection,2995
