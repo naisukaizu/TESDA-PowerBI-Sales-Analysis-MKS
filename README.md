@@ -167,7 +167,7 @@ These slicers allow different combinations of filters to be applied for more tar
 
 ---
 
-# 🔎 Interactive Business Analysis
+# Interactive Business Analysis
 
 Rather than only identifying the overall best-performing product, category, or city, the dashboard can be used to investigate more specific business scenarios by combining multiple filters.
 
@@ -178,11 +178,6 @@ The following questions were designed to demonstrate the use of the dashboard's 
 ### Question 1 — Product Performance Within a Category
 
 **What are the top three products by total sales in Makati within the Laptops category?**
-
-**Filters to apply:**
-
-* City → Makati
-* Category → Laptops
 
 **Answer:**
 The top three selling Laptops in Makati are the Lenovo IdeaPad Slim 3, the ASUS TUF Gaming A15, and the ASUS Vivobook 15.
@@ -195,32 +190,21 @@ The top three selling Laptops in Makati are the Lenovo IdeaPad Slim 3, the ASUS 
 
 **Which category generated the highest total sales in Caloocan during January 2025 to June 2025?**
 
-**Filters to apply:**
-
-* City → Caloocan
-* Date → 1/1/2025 to 6/30/2025
-
 **Answer:**
-`[Enter your finding here.]`
+The highest selling category in Caloocan for the first half of 2025 is Laptops, having a total sales of Php 81,990.00.
 
-📸 **Screenshot:** `screenshots/q2_city_period.png`
+![Question 2](screenshots/q2_city_period.png)
 
 ---
 
 ### Question 3 — Product Performance Within a City, Category, and Period
 
-**Which product generated the highest total sales in Malabon within the Desktops category during July 2025 to December 2025?**
-
-**Filters to apply:**
-
-* City → Malabon
-* Category → Desktops
-* Date → 7/1/2025 to 12/31/2025
+**Which product generated the highest total sales in Taguig within the Desktops category during July 2025 to December 2025?**
 
 **Answer:**
-`[Enter your finding here.]`
+The Custom Gaming PC Ryzen 5 generated the highest total sales within the Desktops category in Taguig for the second half of the year.
 
-📸 **Screenshot:** `screenshots/q3_city_category_period.png`
+![Question 3](screenshots/q3_city_category_period.png)
 
 ---
 
@@ -228,17 +212,10 @@ The top three selling Laptops in Makati are the Lenovo IdeaPad Slim 3, the ASUS 
 
 **Within Manila and the Accessories category, which product had the highest quantity sold, and did it also generate the highest total sales?**
 
-**Filters to apply:**
-
-* City → Manila
-* Category → Accessories
-
 **Answer:**
-`[Enter your finding here.]`
+In the Accessories category in Manila, the Logitech K380 Keyboard had both the highest quantity sold, at 46 units, and the highest total sales, which was Php 91,770.00. This question is useful because the product with the highest **quantity sold** does not necessarily have the highest **sales revenue**.
 
-📸 **Screenshot:** `screenshots/q4_quantity_vs_sales.png`
-
-This question is useful because the product with the highest **quantity sold** does not necessarily have the highest **sales revenue**.
+![Question 4](screenshots/q4_quantity_vs_sales.png)
 
 ---
 
@@ -246,29 +223,20 @@ This question is useful because the product with the highest **quantity sold** d
 
 **During which month did Desktops generate its highest total sales in Muntinlupa?**
 
-**Filters to apply:**
-
-* City → Muntinlupa
-* Category → Desktops
-
 **Answer:**
-`[Enter your finding here.]`
+Desktops in Muntinlupa generated the highest total sales in December. It is worth noting, however, that sales were only made in April, August, and December.
 
-📸 **Screenshot:** `screenshots/q5_monthly_performance.png`
-
----
-
-## 💡 Key Business Insight
-
-Based on the interactive analysis, one important business insight identified from the dashboard is:
-
-> **[Write one significant finding from your analysis here.]**
-
-For example, the analysis may reveal that a particular product performs especially well in one city or category despite having a different overall ranking when all sales are considered.
+![Question 5](screenshots/q5_monthly_performance.png)
 
 ---
 
-## ⚠️ Analytical Limitation
+## Key Business Insight
+
+By exploring the dashboard through the manipulation of filters, one can determine which products under different Categories in different Cities generate the highest and lowest sales. Such data can then be used to determine which strategies should be done in order to either maintain or increase the sales of certain products.
+
+---
+
+## Analytical Limitation
 
 The dataset contains sales and product prices, but it does not contain information such as:
 
@@ -285,7 +253,7 @@ Additional information about costs and margins would be required to perform a pr
 
 ---
 
-## 🛠️ Tools & Skills
+## Tools & Skills
 
 ### Tools
 
@@ -305,63 +273,3 @@ Additional information about costs and margins would be required to perform a pr
 * Business question formulation
 * Data interpretation
 * Business insight generation
-
----
-
-## 📁 Repository Structure
-
-```text
-TESDA-PowerBI-Sales-Analysis/
-│
-├── README.md
-│
-├── data/
-│   ├── Customers.csv
-│   ├── Products.csv
-│   └── Sales.csv
-│
-├── powerbi/
-│   └── TESDA_Sales_Dashboard.pbix
-│
-└── screenshots/
-    ├── dashboard.png
-    ├── q1_city_category.png
-    ├── q2_city_period.png
-    ├── q3_city_category_period.png
-    ├── q4_quantity_vs_sales.png
-    └── q5_monthly_performance.png
-```
-
----
-
-## 🖥️ Dashboard Preview
-
-The main dashboard provides an overview of sales performance while allowing users to interactively filter the results.
-
-![Sales Dashboard](screenshots/dashboard.png)
-
-The additional screenshots in this repository demonstrate how the dashboard was used to answer targeted business questions through different combinations of filters.
-
----
-
-## 📚 Project Context
-
-This project was completed as part of my **TESDA Data Analytics training and final hands-on assessment**.
-
-It represents an early project in my transition toward a career in **data analytics**, with a focus on developing practical skills in data preparation, visualization, business analysis, and dashboard development.
-
----
-
-## 👤 About Me
-
-I am an educator with experience in teaching science, research, statistics, and quantitative analysis. I am currently expanding my technical skills in **data analytics and business intelligence**, with a focus on Power BI, SQL, Excel, and eventually Python.
-
-This project is part of my growing portfolio of practical data analytics work.
-
----
-
-## 📬 Contact
-
-**Name:** Marvic Kaizz
-**GitHub:** [Add your GitHub profile link]
-**LinkedIn:** [Add your LinkedIn profile link]
